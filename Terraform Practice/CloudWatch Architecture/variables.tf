@@ -39,3 +39,8 @@ variable "project_name" {
   description = "tagging to organise resources"
   default     = "terraform_practice"
 }
+
+variable "my_ip" {
+  type        = string
+  description = "public IPV4 address of my device for ssh connection"
+}
